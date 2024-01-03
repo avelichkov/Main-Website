@@ -1,0 +1,203 @@
+
+
+html {
+  overflow-x: hidden;
+  margin-right: calc(-1 * (100vw - 100%));
+}
+
+body{
+  background:rgb(22, 22, 23);
+  background-position: center;
+  font-family: 'Baloo 2', 'Courier New';
+  color:rgb(223, 223, 223);
+  max-width: 700px;
+  font-size: 20px;
+  vertical-align: middle;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+h1{
+  text-align: center;
+  padding: 0,0,0,0;
+  margin: 10px 5px;
+}
+
+section.quotes{
+  margin-top: 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+section.quotes p{
+  margin-top: 100px;
+  /*text-align: left;*/
+}
+
+header{
+  margin: 0;
+  padding: 0 0 0 0;
+}
+
+header ul{
+  margin: 0; padding: 0px;
+  list-style-type: none;
+  font-size: 0;
+  text-align: center;
+  /*display: flex;
+  flex-direction: row;*/
+}
+
+header ul li{
+  display: inline-block;
+  margin: 0px;
+  padding: 0px 0px;
+}
+
+a{
+  text-decoration: none; 
+  font-size: 18px;
+  font-family: 'Comfortaa', 'Courier New';
+  color: rgb(223, 223, 223);
+  text-align: center;
+}
+
+nav ul a{
+  border-top: solid;
+  border-bottom: solid;
+  border-width: thin;
+  box-sizing: border-box;
+  padding: 14px 30px;
+}
+
+header a{
+  font-weight: thin;
+  display: block;
+  padding: 14px 14px;
+}
+
+header a::before{
+  content: attr(title);
+  display: block;
+  font-weight: bold;
+  height: 1px;
+  color: transparent;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+a.socials ion-icon{
+  margin: 0px; padding: 0px;
+  margin-right: 10px;
+  color:rgb(145, 145, 145);
+  transition: color .2s;
+  width: 50px;
+  height: 50px;
+}
+
+a.socials ion-icon:hover{
+  color:rgb(95, 143, 102);
+}
+
+a:hover, .active{
+  font-weight: bold;
+  color:rgb(95, 143, 102);
+}
+
+a.logo{
+  font-family: 'Century Gothic';
+  text-decoration: none; 
+  font-size: 30px;
+  text-align: center;
+  vertical-align: center;
+  margin: 20px;
+}
+
+a.logo:hover{
+  color:rgb(95, 143, 102);
+  transition: 0.4s;
+}
+
+a.logo:not(:hover){
+  color:rgb(223, 223, 223);
+  transition: 0.6s;
+}
+
+img.pfp{
+  border-radius: 5px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  padding: 0px;
+  transform: scale(1);
+  transition: .4s;
+}
+
+.container{
+  overflow: hidden;
+  border-radius: 5px;
+  width: 200px;
+  margin: 20px 20px 15px 0px;
+  padding: 0px;
+  float: left;
+  overflow: hidden;
+}
+
+.container:hover img{
+  filter: none; 
+  transform: scale(1.1);
+  transition: .4s;
+}
+
+p {
+  margin-top: 20px;
+  font-weight: 300;
+}
+
+.clear {
+  clear: both;
+}
+
+.contact-form {
+  font-family: 'Comfortaa';
+  width: 60%;
+  margin: 35px auto;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 96%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  background-color: #1f1f1f;
+  color: #e6e6e6; 
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: 'Comfortaa', 'Courier New';
+}
+
+textarea { 
+  resize: vertical; 
+}
+
+input[type="submit"] {
+  background-color: rgb(95, 143, 102);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(67, 98, 72);
+}
