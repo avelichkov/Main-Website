@@ -14,41 +14,59 @@
     <h1><a class="logo", href="index.html">Alexander Velichkov</a></h1>
     <header>
       <nav><ul>
-        <li><a class= "active" title= "-------My Work------" href="index.html">My Work</a></li>
-        <li><a title= "----About Me------" href="pages/about_me.html">About Me</a></li> 
-        <!-- <li><a title= "Blog" href="pages/blog.html"> Blog</a></li> -->
-        <!-- <li><a title= "Stuff I Like" href="pages/stuff_i_like.html">Stuff I Like</a></li> -->
-        <li><a title= "----Contact Me12----" href="pages/contact_me.html">Contact Me</a></li>
+        <li><a data-name= "----About Me------" href="pages/about_me.html">About Me</a></li>
+        <li><a class= "active" data-name= "-------My Work------" href="index.html">My Work</a></li> 
+        <li><a data-name= "----Contact Me12----" href="pages/contact_me.html">Reach Out</a></li>
       </ul></nav>
     </header>
     
-    <div class="container">
-      <img class="pfp" src="https://cdn.discordapp.com/attachments/786638876307357739/1061750657134112969/tampa_pfp_2.jpg">
-    </div>
-    <p> 
-      Hi, I'm Alex. I love thinking about interesting ideas and creating cool experiences. 
-      I'm currently residing at USC as a Computer Science Games major. 
-      Explore the website to learn more about who I am and what I do.
-    </p>
-    <div class="clear"></div>
-    <a class="socials" href="https://www.linkedin.com/in/alexandervelichkov/" target="_blank">
-      <ion-icon name="logo-linkedin"></ion-icon>
-    </a>
-    <a class="socials" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
-      <ion-icon name="logo-youtube"></ion-icon>
-    </a>
+    <div class = "spacer"></div>
 
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <h2> The Bookstore </h2>
+    <h3> Aug 2023 - Dec 2023 </h3>
+      <iframe frameborder="0" src="https://itch.io/embed/2443555?dark=true" width="502" height="167">
+      <a href="https://avelichkov.itch.io/the-bookstore">The Bookstore by avelichkov, jplatte23</a></iframe>
+      
+      <p>
+        Some bookstores contain more than meets the eye. 
+        Traverse down this one to see what destiny awaits you. 
+      </p>
+      
+      <p>A game by Jason Platte and Alexander Velichkov in 
+        partnership with the Berklee College of Music (Otter Eve, Zachery Cabrjlal, 
+        Ceylan Fang and Joey Kapral).
+      </p>
 
-    <script>
-      $(function(){
-        $(pfp).on('click', function(){
-          $('li').each(function(){
-            $(this).fadeToggle(1000);
-          });
-        });
-      });
-    </script>
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/eTkv55W_cfM?si=lG9vzuNH6UwCpaCX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+
+      <p> Some of the things I worked on for this project were the Jumpscare, Enemy AI, and a <a class = "link" href="https://www.youtube.com/watch?v=snmm29PdMuA">looping effect</a>.
+      </p>
+
+      <div class = "center"> 
+        <div class="line"></div> 
+      </div>
+
+      <h2> IsolX </h2>
+      <h3> Nov 2021 - May 2022 </h3>
+      <p> IsolX is a browser game that teaches the fundamentals of solving equations. You can check it out at
+        <a class = "link" href="https://www.playisolx.com">playisolx.com</a>. I made the game for an interdisciplinary research project
+        where I explored the efficacy of educational games. The talk I gave summarizing my findings is attached below.
+      </p>
+
+
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Sn9-jUNdrwc?si=Sa8TFZB24pBjoU16&amp;start=13" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+
+      <div class = "center"> 
+        <div class="line"></div> 
+      </div>
+
+      <h3>(also I programmed this site using html & css)</h3>
+
+      <div class = "bottom_space"> </div>
 
   </body>
 
